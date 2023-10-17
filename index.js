@@ -9,7 +9,7 @@ const server = express()
 main().catch((err) => console.log(err))
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/test')
+  await mongoose.connect('mongodb+srv://shanvig819:Palak12345@cluster0.h6amrdd.mongodb.net/')
   console.log('Connected to MongoDB')
 }
 
